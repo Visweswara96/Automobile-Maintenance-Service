@@ -1,0 +1,1 @@
+The Automobile Maintenance Service application allows users to book automobile service appointments and check their booking status. The front end is developed using HTML, CSS, and JavaScript, while the back end is built with PHP, hosted on a XAMPP server with MySQL database integration. This project streamlines the booking process and improves customer service efficiency.
