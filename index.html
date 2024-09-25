@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Auto Service Company</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="imag1">
+      <img src="logo.jpg">
+    </div>
+    <div class="container1">
+    <nav> 
+    <ul style="width: 100%;">
+      <li><a href="#">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="#schedule">Book an Appointment</a></li>
+      <li><a href="check.html">Check your appointment status</a></li>
+  </ul>
+</nav>
+</div>
+  </header>
+  <main>
+    <section class="hero has-bg-image" aria-label="home" style="background-image: url('hero-bg.jpg')">
+      <div class="container">
+        <div class="hero-content">
+          <p class="section-subtitle :dark">We have talented engineers & mechanics </p>
+          <h1 class="section-title">Auto Mobile Maintenance & Repair Service </h1>
+          <a href="#schedule"><button onclick="" class="btn" style="color: white;background-color: black;">
+            <span class="span">Book an appointment</span>
+          </button>
+          </a>
+        </div>
+        <figure class="hero-banner" style="--width: 1228; --height: 789;">
+          <img src="hero-banner.png" width="500" height="789" alt="red motor vehicle" class="move-anim">
+        </figure>
+    </section>
+      <h1>OUR VISION</h1>
+      <h4>India’s premier multi-brand car servicing company enriching every mile of your driving experience.</h4>
+      <h1>OUR MISSION</h1>
+      <h4>To be India’s best known multi-brand car repair and maintenance company, reputed for its professional approach, expertise and affordable service.</h4>
+      <h1 style="color: #09305b;">We Make a Promise</h1>
+      <h2 style="color:black;">At The Garage Hub, we have lots of fun doing what we do. We are a vibrant company. Our core philosophy can be best summarized in the following:</h2>
+      <ul>
+        <p><li>Our expertise with various vehicles, automotive technologies is as diverse as the people and experience we bring to CarZ®.</li></p>
+        <p><li>We believe in the power of ordinary people to do extra ordinary things.</li></p>
+        <p><li>We employ our collective potential to vastly improve your automotive service experience.</li></p>
+        <p><li>We all have one thing in common…Passion for the automobile.</li></p>
+        <p><li>We take one oath…to never compromise your Vehicle Performance and Occupant Safety!</li></p>
+        </ul>
+        <div id="about-us">
+      <h1>About Us</h1>
+      <h3>Welcome to Garage Hub, your one-stop shop for all your auto service needs!</h3>
+      <p style="font-size: 20px;
+      color: #112737;"> We are a team of passionate and experienced technicians dedicated to providing exceptional service to our customers. </p>
+        <p style="font-size: 20px;
+        color: #112737;">Whether you need routine maintenance, repairs, or diagnostics, our team has the expertise to get your vehicle running smoothly and safely.</p>
+        <h3>Here's what sets us apart:</h3>
+        <ul>
+          <p><li>Experienced Technicians: Our team is highly trained and experienced in working on all makes and models of vehicles.</li></p>
+          <p><li>Quality Service: We use only the highest quality parts and tools to ensure your vehicle receives the best possible care.</li></p>
+          <p><li>Customer Focus: We are committed to providing excellent customer service and building trust with our clients.</li></p>
+        </ul>
+        <h3>At Garage Hub, we are committed to:</h3>
+        <ul>
+          <P><li>Your Safety: We prioritize your safety on the road by ensuring your vehicle is in top condition.</li></P>
+          <p><li>Convenience: We offer flexible appointment scheduling and work hard to get your vehicle back to you quickly.</li></p>
+        </ul>
+        </div>
+    </section>
+    <div class="overall" style="background-color: black;">
+    <div id="services">
+      <h1 style="text-align: center; font-size: 50px; color: aliceblue;">OUR SERVICES</h1>
+    </div>
+      <div class="section1">
+        <div class="box1 box border">
+           <p style="font-size: 20px;">Oil Change</p> 
+        </div>
+        <div class="box2 box border">
+            <p style="font-size: 20px;">Engine Services</p>
+        </div>
+        <div class="box3 box border">
+            <p style="font-size: 20px;">Water Wash</p>
+        </div>
+    </div>
+    <div class="section2">
+      <div class="box5 box border">
+         <p style="font-size: 20px;">Tyre Services</p>
+      </div>
+      <div class="box6 box border">
+          <p style="font-size: 20px;">AC Service and Repair</p>
+      </div>
+      <div class="box7 box border">
+          <p style="font-size: 20px;">Instrument Cluster</p>
+      </div> 
+      </div>
+      </div>
+    <section class="contact1" id="contact1">
+      <section class="contact" id="contact">  
+        <h2 style="font-size: 40px;">Contact Us:</h2>
+        <ul class="contact-info">
+          <li style="font-size: 25px;"><i class="fas fa-phone"></i> <b>THE GARAGE HUB</b></li>
+          <li><i class="fas fa-phone"></i> Phone: 1234567890</li>
+          <li><i class="fas fa-envelope"></i> Email: thegaragehub@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> Address:17/581,Triumph Street,Tirupati,517102</li>
+        </ul>
+      </section>
+    <section class="schedule" id="schedule">
+      <h2>Book your Appointment</h2>
+      <form id="appointment-form" action="php.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="service">Service Requested:</label>
+        <select id="service" name="service">
+          <option value="">- Select Service -</option>
+          <option value="oil-change">Oil Change</option>
+          <option value="Engine service">Engine service</option>
+          <option value="Water Wash">Water Wash</option>
+          <option value="Tyre Services">Tyre Services</option>
+          <option value="AC Service and Repair">AC Service and Repair</option>
+          <option value="Instrument Cluster">Instrument Cluster</option>
+        </select>
+        <label for="date">Preferred Date and Time:
+        <input type="date" id="date" name="date" required>
+      </label>
+        <select id="time" name="time">
+          <label for="time">Preferred Time:</label>
+          <option value="">- Select Time -</option>
+          <option value="9am">9:00 AM</option>
+          <option value="10am">10:00 AM</option>
+          <option value="11am">11:00 AM</option>
+          <option value="11am">12:00 AM</option>
+          <option value="11am">01:00 PM</option>
+          <option value="11am">02:00 PM</option>
+          <option value="11am">03:00 PM</option>
+        </select>
+            <input type="submit" value="Send Message" name="submit">
+          </form>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
+        
+
